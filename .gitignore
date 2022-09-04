@@ -1,0 +1,14 @@
+bin
+obj
+.vs
+.vscode
+.idea
+.user
+*.user
+artifacts
+dist
+package-cache.xml
+metrics.txt
+*.log
+docker/k8s/scripts/config.*.json.local
+-build-temp
