@@ -1,0 +1,18 @@
+version: '3.5'
+services:
+  db_employee:
+    container_name: db_employee
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=pgadmin
+      - POSTGRES_USER=admin
+    image: postgres:14.3-alpine
+
+  # employeeapp:
+  #   image: employeeapp
+  #   build:
+  #     context: .
+  #     dockerfile: ./employee_service/Dockerfile
+  #   ports:
+  #     - "5033:80"

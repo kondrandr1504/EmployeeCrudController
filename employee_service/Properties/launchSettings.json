@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "books_service": {
+    "employee_service": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
